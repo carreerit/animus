@@ -8,5 +8,5 @@
 
 # mariadb
 > create database studentapp;
-> grant all privileges on studentapp.* to 'student'@'`<tomcat-server-ip-address>`'
+> grant all privileges on studentapp.* to 'student'@'``` `<tomcat-server-ip-address>` ```'
 ```
