@@ -28,7 +28,7 @@
 # cd ../webapps
 # rm -rf *
 # wget https://github.com/carreerit/animus/raw/master/STACK-CONFIG/student.war
-# vim ../context.xml
+# vim ../conf/context.xml
   ### Add this line Just before last line
   <Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource" username="student" password="student@123" driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://<IP-address-of-DB-Server>:3306/student" maxActive="15" maxIdle="3"/>
 # cd ../bin
